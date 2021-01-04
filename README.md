@@ -16,14 +16,15 @@ Activities :
     -	ScoreActivity : where you can see all the previous scores. 
 
 Storage : 
-  -we use SQLlite database to store on local the score of players.
+  - We used SQLlite database to store on local the score of players.
 
 Intents :
-  
+  - We start the app with mainActivity after that we gave 2 choices to users, go on scoreboard activity or play to beat their best score
 
 
-Background services
+Background services : 
+  - we used Notification service with alarmService and a timer to display a notification on cell each day at same hour
 
 
-Sensor used
-We use the microphone as sensor. We record an audio and we get the amplitude and thank to physics calcul we find its maximun decibels to classify it in the score page.
+Sensor used :
+  - We use the microphone as sensor. We record an audio and we get the amplitude and thank to physics calcul we find its maximun decibels to classify it in the score page.
